@@ -1,0 +1,41 @@
+.footer {
+  height: 162px;
+  margin-top: 60px;
+  margin-bottom: 226.29px;
+  padding-left: 33px;
+  .footer-navbar {
+    height: 9px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+  }
+  .language {
+    height: 14px;
+    width: 126px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .call {
+    height: 47px;
+    margin-top: 15px;
+    h3 {
+      line-height: 16.8px;
+    }
+  }
+  .mail {
+    height: 12px;
+    margin-top: 15px;
+  }
+  .whatsapp {
+    height: 20px;
+    margin-top: 15px;
+    h3 {
+    line-height: 20px;
+    }
+  }
+}

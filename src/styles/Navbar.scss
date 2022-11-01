@@ -1,0 +1,20 @@
+.navbar {
+  height: 59px;
+  border-bottom: 1px solid var(--gray-divider);
+  .navigation {
+    height: 20.5px;
+    width: 349px;
+    margin-left: 13px;
+    padding-top: 19px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .left-navigation {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 13px;
+    }
+  }
+}
