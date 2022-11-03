@@ -1,10 +1,12 @@
 .navbar {
   height: 59px;
   border-bottom: 1px solid var(--gray-divider);
+  display: flex;
+  justify-content: center;
   .navigation {
     height: 20.5px;
     width: 349px;
-    margin-left: 13px;
+    // margin-left: 13px;
     padding-top: 19px;
     display: flex;
     flex-direction: row;

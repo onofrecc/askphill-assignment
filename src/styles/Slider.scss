@@ -1,4 +1,24 @@
 .slider {
-  height: 240px;
+  /* VARIABLES DEFINITION */
+  --slide-number: 6;
+  --slide-gap: 12px;
+  --slide-width: 118px;
+
+  height: var(--slider-height);
   border-bottom: 1px solid var(--gray-divider);
+  /* SLIDER SECTION */
+  position: absolute;
+  width: var(--width-default);
+  overflow: hidden;
+  .slider-inner {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 13px;
+    width: calc((var(--slide-number) * var(--slide-width)) + ((var(--slide-number) - 1) * var(--slide-gap)));
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: var(--slide-gap);
+    pointer-events: none;
+    transition: 0s ease-in;
+  }
 }

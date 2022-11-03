@@ -4,7 +4,6 @@ import IconMenu from "../assets/icons/IconMenu";
 import IconStox from "../assets/icons/IconStox";
 import IconShoppingBag from "../assets/icons/IconShoppingBag";
 
-
 function Navbar() {
   return (
     <div className="navbar">

@@ -2,7 +2,6 @@ import React from "react";
 import "../styles/Footer.scss";
 import IconAccordion from "../assets/icons/IconAccordion";
 
-
 function Footer() {
   return (
     <div className="footer">

@@ -1,10 +1,16 @@
 .accordion {
-  height: 47px;
   padding-left: 33px;
   padding-right: 14px;
   border-bottom: 1px solid var(--gray-divider);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  .accordion-main {
+    min-height: 47px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .accordion-submenu {
+    // THIS VALUE HAS TO BE UPDATED
+    margin-top: 45px;
+  }
 }

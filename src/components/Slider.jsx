@@ -1,15 +1,22 @@
-import React from "react";
+import React, { Component } from "react";
 import "../styles/Slider.scss";
+import SliderCard from "./SliderCard";
+import { SliderData } from "../assets/data/SliderData";
 
+class Slider extends Component {
+  renderSlider = () => {
+    return SliderData.map(card => <SliderCard title={card.title} imageName={card.imageName} />)
+  }
 
-
-function Slider() {
-  return (
-    <div className="slider">
-      <div className="slider-card">
+  render() {
+    return (
+      <div className="slider">
+        <div className="slider-inner">
+          {this.renderSlider()}
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default Slider;
