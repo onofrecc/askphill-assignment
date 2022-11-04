@@ -8,6 +8,7 @@
   border-bottom: 1px solid var(--gray-divider);
   /* SLIDER SECTION */
   position: absolute;
+  top: var(--navbar-height);
   width: var(--width-default);
   overflow: hidden;
   .slider-inner {

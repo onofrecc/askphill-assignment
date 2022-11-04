@@ -3,6 +3,7 @@
   padding-right: 14px;
   border-bottom: 1px solid var(--gray-divider);
   .accordion-main {
+    cursor: pointer;
     min-height: 47px;
     display: flex;
     flex-direction: row;
@@ -10,7 +11,6 @@
     justify-content: space-between;
   }
   .accordion-submenu {
-    // THIS VALUE HAS TO BE UPDATED
-    margin-top: 45px;
+    margin-top: 2.71px;
   }
 }

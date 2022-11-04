@@ -1,5 +1,5 @@
 .navbar {
-  height: 59px;
+  height: var(--navbar-height);
   border-bottom: 1px solid var(--gray-divider);
   display: flex;
   justify-content: center;
