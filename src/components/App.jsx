@@ -6,15 +6,29 @@ import Navbar from "./Navbar";
 import Slider from "./Slider";
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      show: false
+    }
+  }
+
+  hideShow = () => {
+    this.setState({
+      show: !this.state.show
+    });
+  }
+
   render () {
+    const {show} = this.state
     return (
       <div className="app">
-        <Navbar />
-        <div className="app-body">
-          <Slider />
-          <AccordionList />
-          <Footer />
-        </div>
+        <Navbar hideShow={this.hideShow} />
+          <div className={`app-body ${!show ? "undisplayed" : ""}`}>
+            <Slider />
+            <AccordionList />
+            <Footer />
+          </div>
       </div>
     );
   }

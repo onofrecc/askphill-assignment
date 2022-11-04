@@ -17,7 +17,11 @@
 
 .app {
   margin: 0 auto;
+  height: 1153px;
   width: var(--width-default);
+  .undisplayed {
+    display: none;
+  }
 }
 
 .bold {
