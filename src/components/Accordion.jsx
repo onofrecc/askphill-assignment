@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import "../styles/Accordion.scss";
 import AccordionSubmenu from "./AccordionSubmenu";
 import IconAccordion from "../assets/icons/IconAccordion";

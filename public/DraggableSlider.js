@@ -1,11 +1,9 @@
-window.onload=function(){
+  window.onload = function () {
 
   let draggableSlider = function () {
     // DOM element(s)
     let slider = document.querySelector(".slider"),
       innerSlider = document.querySelector(".slider-inner");
-      console.log(slider);
-      console.log(innerSlider);
 
     // Slider variables
     let pressed = false,
@@ -58,7 +56,6 @@ window.onload=function(){
       }
     }
   };
-
 
   // Invoke code
   draggableSlider();

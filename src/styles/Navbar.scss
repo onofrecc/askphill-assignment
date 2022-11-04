@@ -1,5 +1,9 @@
 .navbar {
+  position: sticky;
+  top: 0px;
+  z-index:1;
   height: var(--navbar-height);
+  background-color: var(--white);
   border-bottom: 1px solid var(--gray-divider);
   display: flex;
   justify-content: center;
@@ -17,6 +21,9 @@
       flex-direction: row;
       align-items: center;
       gap: 13px;
+    }
+    .icon-menu {
+      cursor: pointer;
     }
   }
 }
