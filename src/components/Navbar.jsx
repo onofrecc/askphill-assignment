@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import "../styles/Navbar.scss";
 import IconMenu from "../assets/icons/IconMenu";
 import IconStox from "../assets/icons/IconStox";

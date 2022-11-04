@@ -1,11 +1,12 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import "../styles/Slider.scss";
 import SliderCard from "./SliderCard";
-import { SliderData } from "../assets/data/SliderData";
+import {sliderData} from "../assets/data/SliderData";
+import {sliderFunctionality} from './SliderFunctionality';
 
 class Slider extends Component {
   renderSlider = () => {
-    return SliderData.map(card => <SliderCard title={card.title} imageName={card.imageName} />)
+    return sliderData.map(card => <SliderCard title={card.title} imageName={card.imageName} />)
   }
 
   render() {
@@ -18,5 +19,7 @@ class Slider extends Component {
     );
   }
 }
+
+sliderFunctionality();
 
 export default Slider;

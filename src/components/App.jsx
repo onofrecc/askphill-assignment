@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import "../styles/App.scss";
 import AccordionList from "./AccordionList"
 import Footer from "./Footer";

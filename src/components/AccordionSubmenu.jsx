@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import "../styles/AccordionSubmenu.scss";
 
 class AccordionSubmenu extends Component {

@@ -1,4 +1,4 @@
-export const AccordionData = [
+export const accordionData = [
   {
     title: "daily",
     submenu: [

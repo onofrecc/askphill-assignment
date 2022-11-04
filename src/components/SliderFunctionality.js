@@ -1,9 +1,8 @@
+export const sliderFunctionality = () => {
   window.onload = function () {
-
-  let draggableSlider = function () {
     // DOM element(s)
-    let slider = document.querySelector(".slider"),
-      innerSlider = document.querySelector(".slider-inner");
+    let slider = document.querySelector(".slider");
+    let sliderInner = document.querySelector(".slider-inner");
 
     // Slider variables
     let pressed = false,
@@ -13,7 +12,7 @@
     // Mousedown eventlistener
     slider.addEventListener("mousedown", (e) => {
       pressed = true;
-      startX = e.offsetX - innerSlider.offsetLeft;
+      startX = e.offsetX - sliderInner.offsetLeft;
       slider.style.cursor = "grabbing";
     });
 
@@ -39,7 +38,7 @@
 
       x = e.offsetX;
 
-      innerSlider.style.left = `${x - startX}px`;
+      sliderInner.style.left = `${x - startX}px`;
 
       checkBoundry();
     });
@@ -47,16 +46,13 @@
     // Check boundry of outer and inner sliders
     function checkBoundry() {
       let outer = slider.getBoundingClientRect(),
-        inner = innerSlider.getBoundingClientRect();
+        inner = sliderInner.getBoundingClientRect();
 
-      if (parseInt(innerSlider.style.left) > 0) {
-        innerSlider.style.left = "0px";
+      if (parseInt(sliderInner.style.left) > 0) {
+        sliderInner.style.left = "0px";
       } else if (inner.right < outer.right) {
-        innerSlider.style.left = `-${inner.width - outer.width}px`;
+        sliderInner.style.left = `-${inner.width - outer.width}px`;
       }
     }
-  };
-
-  // Invoke code
-  draggableSlider();
+  }
 }
