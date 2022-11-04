@@ -1,4 +1,4 @@
-export const SliderData = [
+export const sliderData = [
   {
     title: "running",
     imageName: "running"

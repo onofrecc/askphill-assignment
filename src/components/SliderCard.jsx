@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import "../styles/SliderCard.scss";
 
 class SliderCard extends Component {
