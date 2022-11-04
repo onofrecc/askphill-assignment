@@ -10,11 +10,11 @@ class Slider extends Component {
 
   render() {
     return (
-      <div className="slider">
-        <div className="slider-inner">
-          {this.renderSlider()}
+        <div className="slider">
+          <div className="slider-inner">
+            {this.renderSlider()}
+          </div>
         </div>
-      </div>
     );
   }
 }
