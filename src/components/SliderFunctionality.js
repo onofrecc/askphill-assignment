@@ -40,11 +40,11 @@ export const sliderFunctionality = () => {
 
       sliderInner.style.left = `${x - startX}px`;
 
-      checkBoundry();
+      checkBoundary();
     });
 
-    // Check boundry of outer and inner sliders
-    function checkBoundry() {
+    // Check boundary of outer and inner sliders
+    function checkBoundary() {
       let outer = slider.getBoundingClientRect(),
         inner = sliderInner.getBoundingClientRect();
 

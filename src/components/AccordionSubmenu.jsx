@@ -10,7 +10,7 @@ class AccordionSubmenu extends Component {
         <h4>{title.toUpperCase()}</h4>
         <h5>{quantity} product{quantity === 1 ? "" : "s"}</h5>
       </div>
-    )
+    );
   }
 }
 
