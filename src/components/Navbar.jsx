@@ -14,7 +14,8 @@ class Navbar extends Component {
             <IconStox />
           </div>
           <div className="right-navigation">
-            <IconShoppingBag />
+            <IconShoppingBag className="icon-shopping-bag" />
+            <p className="icon-text">0</p>
           </div>
         </div>
       </div>
