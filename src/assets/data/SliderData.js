@@ -12,15 +12,7 @@ export const sliderData = [
     imageName: "fitness"
   },
   {
-    title: "other",
-    imageName: "fitness - Copy"
-  },
-  {
-    title: "other",
-    imageName: "running - Copy"
-  },
-  {
-    title: "other",
-    imageName: "tennis - Copy"
+    title: "golf",
+    imageName: "golf"
   }
 ]

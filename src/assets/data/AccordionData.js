@@ -3,28 +3,20 @@ export const accordionData = [
     title: "daily",
     submenu: [
       {
-        title: "first",
-        quantity: 25
+        title: "morning socks",
+        quantity: 12
       },
       {
-        title: "running socks",
-        quantity: 25
+        title: "afternoon socks",
+        quantity: 1
       },
       {
-        title: "ski socks",
-        quantity: 25
+        title: "evening socks",
+        quantity: 24
       },
       {
-        title: "flight socks",
-        quantity: 25
-      },
-      {
-        title: "hiking socks",
-        quantity: 25
-      },
-      {
-        title: "work socks",
-        quantity: 25
+        title: "night socks",
+        quantity: 8
       }
     ]
   },
@@ -37,23 +29,23 @@ export const accordionData = [
       },
       {
         title: "running socks",
-        quantity: 25
+        quantity: 13
       },
       {
         title: "ski socks",
-        quantity: 25
+        quantity: 18
       },
       {
         title: "flight socks",
-        quantity: 25
+        quantity: 9
       },
       {
         title: "hiking socks",
-        quantity: 25
+        quantity: 13
       },
       {
         title: "work socks",
-        quantity: 25
+        quantity: 33
       }
     ]
   },
@@ -61,28 +53,24 @@ export const accordionData = [
     title: "travel",
     submenu: [
       {
-        title: "third",
-        quantity: 25
+        title: "train socks",
+        quantity: 1
       },
       {
-        title: "running socks",
-        quantity: 25
+        title: "boat socks",
+        quantity: 15
       },
       {
-        title: "ski socks",
-        quantity: 25
+        title: "car socks",
+        quantity: 31
       },
       {
-        title: "flight socks",
-        quantity: 25
+        title: "motorbike socks",
+        quantity: 23
       },
       {
-        title: "hiking socks",
-        quantity: 25
-      },
-      {
-        title: "work socks",
-        quantity: 25
+        title: "spacerocket socks",
+        quantity: 11
       }
     ]
   },
@@ -90,56 +78,40 @@ export const accordionData = [
     title: "medical",
     submenu: [
       {
-        title: "fourth",
-        quantity: 25
+        title: "high blood pressure socks",
+        quantity: 3
       },
       {
-        title: "running socks",
-        quantity: 25
+        title: "stomachache socks",
+        quantity: 1
       },
       {
-        title: "ski socks",
-        quantity: 25
-      },
-      {
-        title: "flight socks",
-        quantity: 25
-      },
-      {
-        title: "hiking socks",
-        quantity: 25
-      },
-      {
-        title: "work socks",
-        quantity: 25
+        title: "mental confusion socks",
+        quantity: 93
       }
     ]
   },
   { title: "more",
     submenu: [
       {
-        title: "fifth",
-        quantity: 25
+        title: "brunch socks",
+        quantity: 8
       },
       {
-        title: "running socks",
-        quantity: 25
+        title: "marriage socks",
+        quantity: 13
       },
       {
-        title: "ski socks",
-        quantity: 25
+        title: "bad day socks",
+        quantity: 36
       },
       {
-        title: "flight socks",
-        quantity: 25
+        title: "hope socks",
+        quantity: 16
       },
       {
-        title: "hiking socks",
-        quantity: 25
-      },
-      {
-        title: "work socks",
-        quantity: 25
+        title: "job interview socks",
+        quantity: 1
       }
     ]
   }
