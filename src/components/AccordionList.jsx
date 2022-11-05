@@ -5,7 +5,7 @@ import {accordionData} from "../assets/data/AccordionData";
 
 class AccordionList extends Component {
   renderList = () => {
-    return accordionData.map(accordion => <Accordion title={accordion.title} submenu={accordion.submenu} />);
+    return accordionData.map((accordion,index) => <Accordion title={accordion.title} submenu={accordion.submenu} key={index}/>);
   }
 
   render() {

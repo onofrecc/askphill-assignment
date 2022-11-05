@@ -19,7 +19,7 @@ class Accordion extends Component {
 
   renderSubmenu = () => {
     const submenu = this.props.submenu;
-    return submenu && submenu.map(menu => < AccordionSubmenu title={menu.title} quantity={menu.quantity} />);
+    return submenu && submenu.map((menu, index) => < AccordionSubmenu title={menu.title} quantity={menu.quantity} key={index} />);
   }
 
   render () {

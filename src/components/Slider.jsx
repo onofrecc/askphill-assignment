@@ -6,7 +6,7 @@ import {sliderFunctionality} from './SliderFunctionality';
 
 class Slider extends Component {
   renderSlider = () => {
-    return sliderData.map(card => <SliderCard title={card.title} imageName={card.imageName} />)
+    return sliderData.map((card, index) => <SliderCard title={card.title} imageName={card.imageName} key={index}/>)
   }
 
   render() {
