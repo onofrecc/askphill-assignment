@@ -1,4 +1,5 @@
 import * as React from "react";
+
 const SVGComponent = (props) => (
   <svg
     width={17}
@@ -23,4 +24,5 @@ const SVGComponent = (props) => (
     />
   </svg>
 );
+
 export default SVGComponent;

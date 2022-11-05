@@ -11,7 +11,7 @@ class SliderCard extends Component {
         <img src={path} alt="the best run" />
         <h1>{title.charAt(0).toUpperCase() + title.slice(1)}</h1>
       </div>
-    )
+    );
   }
 }
 
