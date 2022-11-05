@@ -8,7 +8,7 @@ class AccordionSubmenu extends Component {
     return (
       <div className="accordion-submenu-item">
         <h4>{title.toUpperCase()}</h4>
-        <h5>{quantity} products</h5>
+        <h5>{quantity} product{quantity === 1 ? "" : "s"}</h5>
       </div>
     )
   }
